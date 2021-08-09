@@ -44,6 +44,7 @@
 		AB81413926C1052F00B5A54A /* DebugVertexShader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DebugVertexShader.cpp; sourceTree = "<group>"; };
 		AB81413B26C1052F00B5A54A /* LightVertexShader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LightVertexShader.cpp; sourceTree = "<group>"; };
 		AB81413C26C1052F00B5A54A /* LightFragmentShader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LightFragmentShader.cpp; sourceTree = "<group>"; };
+		AB81413D26C1102C00B5A54A /* DepthGeometryShader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DepthGeometryShader.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +107,9 @@
 		AB81413426C1052F00B5A54A /* SimpleDepthShader */ = {
 			isa = PBXGroup;
 			children = (
-				AB81413526C1052F00B5A54A /* DepthFragmentShader.cpp */,
 				AB81413626C1052F00B5A54A /* DepthVertexShader.cpp */,
+				AB81413D26C1102C00B5A54A /* DepthGeometryShader.cpp */,
+				AB81413526C1052F00B5A54A /* DepthFragmentShader.cpp */,
 			);
 			path = SimpleDepthShader;
 			sourceTree = "<group>";
@@ -115,8 +117,8 @@
 		AB81413726C1052F00B5A54A /* DebugShader */ = {
 			isa = PBXGroup;
 			children = (
-				AB81413826C1052F00B5A54A /* DebugFragmentShader.cpp */,
 				AB81413926C1052F00B5A54A /* DebugVertexShader.cpp */,
+				AB81413826C1052F00B5A54A /* DebugFragmentShader.cpp */,
 			);
 			path = DebugShader;
 			sourceTree = "<group>";
